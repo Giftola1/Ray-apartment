@@ -14,7 +14,7 @@ import Accommodate from '../page/accommodationPage/Accommodate';
 const pages =createBrowserRouter([
     {path: "/", element: <Home />},
     {path:"*", element: <ErrorPage/>}, 
-    {path:"/traveltips", element: <Travel/>},
+    {path:"/aboutus", element: <Travel/>},
     {path:"/contacts", element:<Contact/>},
     {path:"/accommodation", element:<Accommodate/>}
 

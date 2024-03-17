@@ -19,7 +19,8 @@ function Button() {
     mt-[10px]
 
     sm:w-[150px] text-[13px]
-    md:px-[30px]
+    md:px-[30px][@media(max-width:355px)]:w-[70px]
+     [@media(max-width:355px)]:h-[30px] [@media(max-width:355px)]:text-[9px] [@media(max-width:355px)]:mt-[10px]
     ' > Subscribe</div>
   )
 }

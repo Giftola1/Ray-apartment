@@ -4,8 +4,8 @@ import Button from '../Button/Button';
 
 function Footers() {
   return (
-    <div className='grid 
-    xl:flex xl:justify-center p-20 xl:gap-10 bg-[#000] justify-center p-20  md:grid-cols-2 lg:flex col lg:justify-around'>
+    <div className='pl-[40px] py-5 grid 
+    xl:flex xl:justify-center xl:p-20 xl:gap-10 bg-[#000] justify-center  md:grid-cols-2 lg:flex col lg:justify-around '>
 {/* #0A1121 */}
         <div className='mr-10  max-[480px]:mr-[0]'>
             <p className='text-[#fff]  '>RaysApartment</p>
@@ -79,21 +79,23 @@ function Footers() {
             <h2 className='text-[19px] font-bold mt-[40px] 
             max-[480px]:text-[14px]
             xl:text-[24px] w-full xl:w-[37rem] lg:w-[17rem]'>Get exclusive inspiration for your next stay –  subscribe to our newsletter.</h2>
-       <div className='flex col'>
+       <div className='flex col [@media(max-width:350px)]:grid'>
             <input  type="text"
             className='
             pb-2
-            pr-20
+            pr-19
             bg-transparent
             border-b-2 border-solid border-[#007CC2]
             text-[#fff]
             mt-4
             font-bold
-            max-[480px]:pr-6
-            sm:pr-40
+            max-[480px]:pr-5
+            sm:pr-30
             lg:pr-7
             xl:pr-40
-            [@media(max-width:355px)]:pr-3
+            [@media(max-width:400px)]:pr-1
+            
+           
             '
             placeholder='Email Address  '/>  
             <Button/>

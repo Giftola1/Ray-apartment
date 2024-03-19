@@ -46,7 +46,7 @@ function Travel() {
                       <Zoom2  src={secondZoom}
                         altText="Description for image 1"/>
                       <p className='text-[#AAAAAA] mt-[20px] hover:text-[#BAA380] transition duration-1000 font-medium ' >RAYAPARTMENT'S EXPLORER'S HUB</p>
-                      <h2 className='text-[2rem] text-[#5A5A5A] hover:text-[#6E6F6E]' >Personalized Recommendations:</h2>
+                      <h2 className='text-[2rem] text-[#5A5A5A] hover:text-[#6E6F6E]' >Suggestions</h2>
                       <p className='text-[#50524F] mt-[17px]'> With advanced algorithms and user preferences, Ray Apartment offers personalized
                        accommodation recommendations tailored to individual needs and preferences.</p>
 
@@ -86,7 +86,7 @@ function Travel() {
                       <Zoom  src={seventhZoom}
                       altText="Description for image 1"  
                       />
-                      <p className='text-[#AAAAAA] mt-[20px] hover:text-[#BAA380] transition duration-1000 font-medium ' >NEWS SIGHTSEEING</p>
+                      <p className='text-[#AAAAAA] mt-[20px] hover:text-[#BAA380] transition duration-1000 font-medium ' >RAYAPARTMENT'S EXPLORER'S HUB</p>
                       <h2 className='text-[2rem] text-[#5A5A5A] hover:text-[#6E6F6E]' >24/7 Customer Support:</h2>
                       <p className='text-[#50524F] mt-[17px]'>At Ray Apartment, we offer 24/7 customer support, ensuring assistance is available whenever you need it. Our dedicated team is here to help with bookings, inquiries, and any support services you may require. Enjoy peace of mind knowing that help is just a phone call or message away at Ray Apartment.</p>
 

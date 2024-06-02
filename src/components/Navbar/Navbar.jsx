@@ -4,7 +4,8 @@ import { Link } from "react-router-dom";
 import Button from "../Bottons";
 import NavLinks from "./NavLinks";
 import {FaBars} from 'react-icons/fa'
-import Logo from '../../assets/images/rayLogo.png'
+// import { ReactComponent as Logo } from '../../assets/images/black stacked.svg'
+import  Logo from '../../assets/images/black stacked.svg'
 
 
 const Navbar = () => {
@@ -14,13 +15,14 @@ const Navbar = () => {
       <div className="flex items-center font-medium justify-between">
         <div className="z-50 p-5 md:w-auto w-full flex justify-between">
          <Link to="/">
-          <img src={Logo} alt="logo" className=" w-[40vw] md:cursor-pointer h-[70px] xl:ml-[10rem] md:w-[22vw] md:ml-[1rem] " />
+          <img src={Logo} alt="logo" className=" w-[40vw] md:cursor-pointer h-[70px] xl:ml-[7rem] md:w-[22vw] md:ml-[1rem] " />
+          {/* <Logo className="w-[40vw] md:cursor-pointer h-[70px] xl:ml-[8rem] md:w-[42vw] md:ml-[1rem]" /> */}
           </Link>
           <div className="text-3xl md:hidden" onClick={() => setOpen(!open)}>
             <FaBars name={`${open ? "close" : "menu"}`} className="mt-[17px]" ></FaBars>
           </div>
         </div>
-        <ul className="md:flex hidden uppercase items-center   font-[Poppins] xl:mx-[10rem] md:mx-[3rem]">
+        <ul className="md:flex hidden uppercase items-center   font-[Poppins] xl:mx-[10rem] md:mx-[3rem] ">
           <li>
             <Link to="/" className=" px-2 inline-block border-b-[3px] border-gray-500 font-bold hover:text-[#b98048] transition duration-1000">
               Home

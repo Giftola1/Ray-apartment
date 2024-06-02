@@ -28,8 +28,8 @@ const Animatedd = () => {
     >
       <div className="absolute inset-0 bg-black opacity-50"></div>
       <div className="text-white text-center z-10">
-            <p className='text-[1.2rem] '>Find Your Bliss at RayApartment</p>
-            <h1 className='text-[2rem] font-bold font-serif'>Embark on Your Journey to <span className='text-[#CE8455]'>Exceptional Comfort </span> <br />and Luxury with RayApartment</h1>
+            <p className='text-[1.2rem] '>Find Your Bliss at RoyalHomes</p>
+            <h1 className='text-[2rem] font-bold font-serif'>Embark on Your Journey to <span className='text-[#CE8455]'>Exceptional Comfort </span> <br />and Luxury with RoyalHomes</h1>
           </div>
     </div>
   );

@@ -42,7 +42,7 @@ function Contact() {
             <FaStar className='text-[#FFC107]'></FaStar>
             <FaStar className='text-[#FFC107]'></FaStar>         
       </ul>
-      <h1 className='text-[1rem] font-serif  sm:text-[1.2rem] font-serif pt-[20px]'>RayApartment is a game-changer in the world of hotel booking <br /> apps! Its seamless and intuitive platform made finding and booking my ideal accommodations a breeze. The comprehensive  <br />features and prioritization of user comfort ensured an effortless and satisfying experience. RayApartment is my go-to <br />choice for stress-free travel planning!</h1>
+      <h1 className='text-[1rem] font-serif  sm:text-[1.2rem] font-serif pt-[20px]'>RoyalHomes is a game-changer in the world of hotel booking <br /> apps! Its seamless and intuitive platform made finding and booking my ideal accommodations a breeze. The comprehensive  <br />features and prioritization of user comfort ensured an effortless and satisfying experience. RoyalHomes is my go-to <br />choice for stress-free travel planning!</h1>
       <h1 className="text-[18px] font-bold sm:text-[20px] ">Anonymous</h1>
     </div>,
     <div>
@@ -84,17 +84,23 @@ function Contact() {
      
         <Navbar/>
 
-            <div className="relative h-[85vh] flex items-center justify-center bg-cover bg-center" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1678132446331-da900be50e27?q=80&w=1965&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')" }}>
+            <div className="relative h-[105vh] flex items-center justify-center bg-cover bg-center" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1678132446331-da900be50e27?q=80&w=1965&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')" }}>
                 <div className="absolute inset-0 bg-black opacity-50"></div>
                 <div className="text-white text-center z-10">
                 
-                    <h1 className="text-[3rem] font-bold">Discover Comfort at RayApartment</h1>
+                    <h1 className="text-[3rem] font-bold">Discover Comfort at RoyalHomes</h1>
                  
                     
                 </div>
             </div>
            
-      <div className='bg-[#151719] grid justify-center gap-[5rem]  py-[6rem] sm:flex col '>
+      <div className=' grid justify-center gap-[5rem]  py-[1rem] sm:flex col '>
+      
+                      <div className="relative w-[90vw] h-[82vh] flex items-center justify-center bg-cover bg-center sm:w-[50vw] h-[87vh] ml-[20px]" 
+                      style={{ backgroundImage: "url('https://images.unsplash.com/photo-1679485734032-1e2b82a6999c?q=80&w=1463&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')" }}>
+
+                      </div>
+                
               <motion.div
                        ref={ref}
                        initial={{ y: 150, opacity: 0 }}
@@ -113,17 +119,7 @@ function Contact() {
                             </div>
                   </div>
               </motion.div>
-                <motion.div
-                     ref={ref}
-                     initial={{ y: 150, opacity: 0 }}
-                     animate={{ y: inView ? 0 : 50, opacity: inView ? 1 : 0 }}
-                     transition={{ duration: 3 }}
-                     style={{ zIndex: 1 }}>
-                      <div className="relative w-[90vw] h-[82vh] flex items-center justify-center bg-cover bg-center sm:w-[50vw] h-[87vh]" 
-                      style={{ backgroundImage: "url('https://images.unsplash.com/photo-1679485734032-1e2b82a6999c?q=80&w=1463&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')" }}>
-
-                      </div>
-                </motion.div>
+               
           </div>
          
           <div>
@@ -172,7 +168,7 @@ function Contact() {
       </div>
       <div
       style={{
-        backgroundImage: `url(${'https://images.unsplash.com/photo-1570737209810-87a8e7245f88?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'})`,
+        backgroundImage: `url(${' https://images.unsplash.com/photo-1570737209810-87a8e7245f88?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'})`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         height: '100vh',

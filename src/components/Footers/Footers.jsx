@@ -8,7 +8,7 @@ function Footers() {
     xl:flex xl:justify-center xl:p-20 xl:gap-10 bg-[#000] justify-center  md:grid-cols-2 lg:flex col lg:justify-around '>
 {/* #0A1121 */}
         <div className='mr-10  max-[480px]:mr-[0]'>
-            <p className='text-[#fff]  '>RaysApartment</p>
+            <p className='text-[#fff]  '>RoyalHomes</p>
 
             <select name="" id="" className='
             text-white
@@ -55,7 +55,7 @@ function Footers() {
             '>
             <ul>
                 <li>Help</li>
-                <li>Learn how Ray Apartment works</li>
+                <li>Learn how RoyalHomes works</li>
                 <li>Terms and Condition</li>
                 <li>Privacy Notice</li>
                 <li>Cyber Safety</li>
@@ -100,8 +100,8 @@ function Footers() {
             placeholder='Email Address  '/>  
             <Button/>
             </div> 
-            <p className=' font-bold text-[14px] mt-5'>RayApartment., <span className='font-normal text-[#AFB3BC]'>Email: inforoyalhomes2024@gmail.com</span> </p>
-            <p className='font-normal text-[#AFB3BC]' >Copyright 2024 RayApartment | All rights reserved.</p>
+            <p className=' font-bold text-[14px] mt-5'>RoyalHomes., <span className='font-normal text-[#AFB3BC]'>Email: inforoyalhomes2024@gmail.com</span> </p>
+            <p className='font-normal text-[#AFB3BC]' >Copyright 2024 RoyalHomes | All rights reserved.</p>
         </div>
 
         <style jsx>{`

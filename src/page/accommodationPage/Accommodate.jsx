@@ -2,7 +2,7 @@ import React, { useState, useEffect }  from 'react';
 import Navbar from '../../components/Navbar/Navbar';
 import Footer from '../../components/Footers/Footers';
 import Animated2 from '../../components/AnimatedBackground/Animated2';
-import Dan from '../../assets/images/mobile (1).png';
+import Dan from '../../assets/images/iPhone-13-PRO-MAX-localhost (1).png';
 import Modal from '../../components/Modal/Modal';
 import { FaStar } from 'react-icons/fa';
 import eightZoom from '../../assets/images/eigthzoom.avif';
@@ -56,7 +56,7 @@ function Accommodate() {
             <FaStar className='text-[#FFC107]'></FaStar>
             <FaStar className='text-[#FFC107]'></FaStar>         
       </ul>
-      <h1 className='text-[1rem] font-serif  sm:text-[1.2rem] font-serif pt-[20px]'>RayApartment is a game-changer in the world of hotel booking <br /> apps! Its seamless and intuitive platform made finding and booking my ideal accommodations a breeze. The comprehensive  <br />features and prioritization of user comfort ensured an effortless and satisfying experience. RayApartment is my go-to <br />choice for stress-free travel planning!</h1>
+      <h1 className='text-[1rem] font-serif  sm:text-[1.2rem] font-serif pt-[20px]'>RoyalHomes is a game-changer in the world of hotel booking <br /> apps! Its seamless and intuitive platform made finding and booking my ideal accommodations a breeze. The comprehensive  <br />features and prioritization of user comfort ensured an effortless and satisfying experience. RoyalHomes is my go-to <br />choice for stress-free travel planning!</h1>
       <h1 className="text-[18px] font-bold sm:text-[20px]text-[#000] ">Anonymous</h1>
     </div>,
     <div>
@@ -67,7 +67,7 @@ function Accommodate() {
             <FaStar className='text-[#FFC107]'></FaStar>
             <FaStar className='text-[#FFC107]'></FaStar>         
       </ul>
-     <h1 className='text-[1rem] font-serif  sm:text-[1.2rem] font-serif pt-[20px]'>Booking my stay with Ray Apartment was a breeze! From finding  <br /> the perfect accommodation to securing my reservation, their app made the entire process seamless. The attention to detail and <br /> personalized service exceeded my expectations. I highly recommend Ray Apartment to anyone looking for a hassle-free <br /> and memorable travel experience!</h1>
+     <h1 className='text-[1rem] font-serif  sm:text-[1.2rem] font-serif pt-[20px]'>Booking my stay with RoyalHomes was a breeze! From finding  <br /> the perfect accommodation to securing my reservation, their app made the entire process seamless. The attention to detail and <br /> personalized service exceeded my expectations. I highly recommend RoyalHomes to anyone looking for a hassle-free <br /> and memorable travel experience!</h1>
      <h1 className="text-[18px] font-bold sm:text-[20px]">Joy Adams</h1>
     </div>,
     <div>
@@ -78,9 +78,9 @@ function Accommodate() {
             <FaStar className='text-[#FFC107]'></FaStar>
             <FaStar className='text-[#FFC107]'></FaStar>         
       </ul>
-     <h1 className='text-[1rem] font-serif  sm:text-[1.2rem] font-serif pt-[20px] '>Ray Apartment's hotel booking app is my go-to choice for all my travel 
+     <h1 className='text-[1rem] font-serif  sm:text-[1.2rem] font-serif pt-[20px] '>RoyalHomes's hotel booking app is my go-to choice for all my travel 
      <br /> needs. The app's user-friendly interface and extensive range of options make it easy to find the perfect accommodation for any trip. 
-     <br /> With seamless booking and excellent customer support, Ray Apartment ensures that every stay is a memorable experience. 
+     <br /> With seamless booking and excellent customer support, RoyalHomes ensures that every stay is a memorable experience. 
      <br /> I wouldn't trust my travel plans to anyone else!</h1>
      <h1 className="text-[18px] font-bold sm:text-[20px]text-[#000] ">Daniel Smith</h1>
     </div>
@@ -114,9 +114,9 @@ function Accommodate() {
                       altText="Description for image 1"  class='firstZoom'
                       />
                       <div className='px-[20px]'>
-                      <p className='text-[#AAAAAA] mt-[20px] hover:text-[#BAA380] transition duration-1000 font-medium ' >RAYAPARTMENT'S EXPLORER'S HUB</p>
+                      <p className='text-[#AAAAAA] mt-[20px] hover:text-[#BAA380] transition duration-1000 font-medium ' >RoyalHomes'S EXPLORER'S HUB</p>
                       <h2 className='text-[2rem] text-[#5A5A5A] [@media(max-width:420px)]:text-[1.2rem]  hover:text-[#6E6F6E]' >24/7 Customer Support:</h2>
-                      <p className='text-[#50524F] mt-[17px]'>At Ray Apartment, we offer 24/7 customer support, ensuring assistance is available whenever you need it. Our dedicated team is here to help with bookings, inquiries, and any support services you may require. Enjoy peace of mind knowing that help is just a phone call or message away at Ray Apartment.</p>
+                      <p className='text-[#50524F] mt-[17px]'>At RoyalHomes, we offer 24/7 customer support, ensuring assistance is available whenever you need it. Our dedicated team is here to help with bookings, inquiries, and any support services you may require. Enjoy peace of mind knowing that help is just a phone call or message away at RoyalHomes.</p>
 
                       </div>
                       
@@ -127,9 +127,9 @@ function Accommodate() {
                       <Zoom2  src={secondZoom}
                         altText="Description for image 1"/>
                         <div className='px-[20px]'>
-                        <p className='text-[#AAAAAA] mt-[20px] hover:text-[#BAA380] transition duration-1000 font-medium ' >RAYAPARTMENT'S EXPLORER'S HUB</p>
+                        <p className='text-[#AAAAAA] mt-[20px] hover:text-[#BAA380] transition duration-1000 font-medium ' >RoyalHomes'S EXPLORER'S HUB</p>
                       <h2 className='text-[2rem] text-[#5A5A5A] hover:text-[#6E6F6E] [@media(max-width:420px)]:text-[1.2rem]'>Detailed Listings</h2>
-                      <p className='text-[#50524F] mt-[17px]'>Each accommodation listing on Ray Apartment provides detailed information, including amenities, location details, photos, and reviews, helping users make informed booking decisions.</p>
+                      <p className='text-[#50524F] mt-[17px]'>Each accommodation listing on RoyalHomes provides detailed information, including amenities, location details, photos, and reviews, helping users make informed booking decisions.</p>
                         </div>
                   </div>
 
@@ -139,9 +139,9 @@ function Accommodate() {
                       altText="Description for image 1"  
                       />
                       <div className='px-[20px]'>
-                      <p className='text-[#AAAAAA] mt-[20px] hover:text-[#BAA380] transition duration-1000 font-medium ' >RAYAPARTMENT'S EXPLORER'S HUB</p>
+                      <p className='text-[#AAAAAA] mt-[20px] hover:text-[#BAA380] transition duration-1000 font-medium ' >RoyalHomes'S EXPLORER'S HUB</p>
                       <h2 className='text-[2rem] text-[#5A5A5A] hover:text-[#B19885] transition duration-1000 [@media(max-width:420px)]:text-[1.2rem]' >Instant Booking</h2>
-                      <p className='text-[#50524F] mt-[17px]'>Ray Apartment offers instant booking services, enabling users to swiftly reserve accommodations hassle-free. With real-time availability and flexibl
+                      <p className='text-[#50524F] mt-[17px]'>RoyalHomes offers instant booking services, enabling users to swiftly reserve accommodations hassle-free. With real-time availability and flexibl
                       e cancellation policies, travelers can secure their stay effortlessly. Our secure payment gateway ensures peace of mind during the booking process</p>
                         </div>
                   </div>
@@ -192,7 +192,7 @@ function Accommodate() {
               <div className='mt-[40px] ml-[4%] sm:mt-[9rem] md:mt-[60px]'>
                 <h1 className='text-black text-[1.5rem] ml-[40px]  w-[60vw] mt-[0]  max-[480px]:text-[17px]
                 sm:text-[1rem] sm:w-[40vw] xl:w-[40vw] xl:text-[2rem] xl:mt-[10rem]
-                 md:text-[1.2rem] md:w-[35vw] '>Be the first to explore RayApartment's revolutionary booking app. Secure your spot on the 
+                 md:text-[1.2rem] md:w-[35vw] '>Be the first to explore RoyalHomes's revolutionary booking app. Secure your spot on the 
                 waitlist for VIP access, early benefits and surprises. </h1>
                 <div>
                 
@@ -214,12 +214,17 @@ function Accommodate() {
                   
                   <div>
                 <h1 className='text-center text-black font-bold text[1rem]'>Join the waitlist</h1>
-                <p className='text-black text-[17px] mt-[20px] '>Unlock exclusive benefits, early access, and unbeatable deals! Join our waitlist today to secure your spot and be the first to experience luxury with RayApartment. Don't miss out!</p>
-            <div className='mt-[20px]'>
-                <label htmlFor="" className='text-[black] font-semibold text-[1.1rem]'>Fullname</label> <Input className='text-[black] outline w-[20vw] py-[10px] bg-[#F8F8F8] outline-none border-2 border-gray-300 rounded-md pl-[10px] my-[20px]' type="text" placeholder="E.g John Doe" id="1"  />
-                <label htmlFor="" className='text-[black] font-semibold text-[1.1rem]'>Email address</label><Input type="email" placeholder="E.g Johndoe@gmail.com" id="2" className='text-[black] outline-none border-2 border-gray-300 mt-[20px] rounded-md pl-[10px] w-[20vw] py-[10px] bg-[#F8F8F8]'/>
+                <p className='text-black text-[17px] mt-[20px] '>Unlock exclusive benefits, early access, and unbeatable deals! Join our waitlist today to secure your spot and be the first to experience luxury with RoyalHomes. Don't miss out!</p>
+                <div className='mt-[20px]'>
+                <label htmlFor="" className='text-[black] font-semibold text-[1.1rem]'>Fullname</label> <Input className='text-[black] outline w-[45vw] py-[10px] bg-[#F8F8F8] outline-none border-2 border-gray-300 rounded-md pl-[10px] my-[20px] 
+                [@media(max-width:425px)]:w-[65vw]
+                sm:w-[35vw] md:w-[33vw] lg:w-[30vw] xl:w-[20vw]' type="text" placeholder="E.g John Doe" id="1"  />
+                <label htmlFor="" className='text-[black] font-semibold text-[1.1rem]'>Email address</label><Input type="email" placeholder="E.g Johndoe@gmail.com" id="2" className='text-[black] w-[45vw] outline-none border-2 border-gray-300 mt-[20px] rounded-md pl-[10px] py-[10px] bg-[#F8F8F8] 
+                 [@media(max-width:425px)]:w-[65vw]
+                sm:w-[35vw] md:w-[33vw] lg:w-[30vw] xl:w-[20vw]'/>
                 
-              <button className='text-center text-[white] w-[20vw] bg-[#1876F2] h-[50px] rounded-md mt-[30px]' onClick={togglePopUp}>Join Waitlist</button>
+              <button className='text-center text-[white] w-[20vw] bg-[#1876F2] h-[50px] rounded-md mt-[30px] [@media(max-width:475px)]:w-[30vw]
+             ' onClick={togglePopUp}>Join Waitlist</button>
               <div>
                   {showPopUp && (
                     <div
@@ -299,7 +304,7 @@ function Accommodate() {
                 style={{ backgroundImage: "url('https://images.unsplash.com/flagged/photo-1573168710865-2e4c680d921a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3Dhttps://images.unsplash.com/photo-1685814830158-e4b368134de0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE5fHx8ZW58MHx8fHx8')" }}>
                 <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-50 transition-opacity duration-300"></div>
                 <div className="text-white text-center z-10">
-                  <h1 className='text-[2rem] font-serif'>Discover Comfort at RayApartment</h1>
+                  <h1 className='text-[2rem] font-serif'>Discover Comfort at RoyalHomes</h1>
                   <p className="mt-2">Indulge in luxury living, tailored services, and unique experiences for an unforgettable stay.</p>
                   <h1 className="text-[18px] font-bold sm:text-[20px] ">Tel: +44 777-811-2713</h1>
                   <h3>Email: inforoyalhomes2024@gmail.com</h3>
